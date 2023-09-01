@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supercar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'roboto',sans-serif;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/pexels-photo-919073.jpeg);
+            background-size: cover;
+            /* padding-left: 8%;
+            padding-right: 8%;
+            box-sizing: border-box; */
+        }
+        .navbar{
+            height: 12%;
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+            width: 10%;
+            cursor: pointer;
+        }
+        nav{
+            text:1;
+            text-align: right;
+        }
+        nav ul li{
+            list-style: none;
+            display:inline-block ;
+            margin-left: 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+        }
+        .row{
+            display: flex;
+            height: 90%;
+            align-items: center;
+        }
+        .coloum{
+            flex-basis:  60%;
+            margin-left: 20px;
+            margin-bottom: 150px;
+        }
+        h1{
+            color:#fff;
+            font-size: 100px;
+
+        }
+        p{
+            color: #fff;
+            font-size: 12px;
+            line-height: 15px;
+        }
+        button{
+            width: 100px;
+            color: #000;
+            font-size: 12px;
+            padding: 8px;
+            background: #fff;
+            border: 0;
+            border-radius: 20px;
+            overflow: none;
+            margin-top: 20px;
+        } 
+        .card{
+            width: 200px;
+            height: 230px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 20px;
+            background-position: center; 
+           background-size: cover;
+           text-align: center;
+           transform: 0.5s;
+        }
+        .card1{
+         text-align: center;
+            color: #00c7ff;
+            
+background-image: url(img/Ferrari-55.jpg);
+        }
+        .card2{
+color: #00c7ff;
+         background-image: url(img/lamborghini_huracan_black_underground_racing_twin_turbo-HD.jpg);
+        }
+        .card3{
+            color: #00c7ff;
+        background-image: url(img/porsche-911-carrera-black-old-porsche-wallpaper-preview.jpg);
+        }
+        .card4{
+            color: #00c7ff;
+            background-image: url(img/Bugatti_Chiron-Profilee_1671786139577_1671786139729_1671786139729.jpg);
+        }
+        .card4 p{
+            margin: 5px;
+            color:#eca7f6;
+        }
+        .card2 p{
+            margin: 5px;
+            color: #e1fffe;
+        }
+        .card1 p{
+            margin: 5px;
+            color: #eca7f6;
+        }
+        .card3 p{
+            margin: 5px;
+            color: #e9dbeb;
+        }
+        .card :hover{
+            transform: translateY(-10px);
+        }
+        nav ul li a :hover{
+  color: #00c7ff;
+        }
+        .c{
+         margin-left: 10px;
+        }
+    </style> 
+    
+</head>
+<body>
+   <div class="container">
+    <div class="navbar">
+        <img src="img/lukisan-kereta-hitam-putih-kertas-dinding-1920x540_70.jpg" class="logo">
+        <nav>
+            <ul>
+                <li> <a href="#"><button type="button">Home</button></a></li>
+                <li> <a href="about.html"><button type="button">About</button></a></li>
+                <li> <a href="https://www.pexels.com/search/supercar/"><button type="button">Image</button></a></li>
+                <li> <a href="location.html"><button type="button">Location</button></a></li>
+            </ul>
+        </nav> 
+    </div>
+    <div class="row">
+        <div class="coloum">
+            <h1>Supercars</h1>
+            <p>Supercars are renowned for their top-notch quality, boasting high-performance engines, lightweight materials, and cutting-edge technology. These precision-crafted machines offer not only exceptional speed and agility but also luxurious interiors and iconic designs. The reputation of prestigious brands like Ferrari, Lamborghini, and Porsche further emphasizes the enduring commitment to quality in the world of supercars.</p>
+         <div class="c">   <button type="button"> Explore </button></div>
+                </div>
+        <div class="coloum">
+            <div class="card card1">
+                <h5>Farrari</h5>
+                <p>Ferrari is synonymous with uncompromising quality, epitomizing exquisite craftsmanship, extraordinary speed, and iconic Italian flair.</p>
+                </div>
+                <div class="card card2">
+                    <h5>Lamborghini</h5>
+                    <p>Lamborghini is celebrated for its exceptional quality, embodying Italian craftsmanship, breathtaking performance, and striking design.</p>
+                    </div>
+                    <div class="card card3">
+                        <h5>Porsche</h5>
+                        <p>Porsche is celebrated for its exceptional quality, blending precision engineering, high-performance capabilities, and timeless design..</p>
+                        </div>
+                        <div class="card card4">
+                            <h5>Bugatti</h5>
+                            <p>Bugatti is synonymous with uncompromising quality, exemplifying precision engineering, extraordinary speed, and unmatched luxury.</p>
+                            </div>
+        </div>
+    </div>
+
+   </div>
+</body>
+</html>
